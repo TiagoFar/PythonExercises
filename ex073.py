@@ -1,0 +1,7 @@
+times = ('Nitro','Vella','Guarulhos','MSC')
+print('Lista de times da Copa Guarulhos de Vôlei 2021: Nitro, Vella, Guarulhos, MSC')
+print(f'Os 3 primeiros são: {times[:3]}')
+print(f'Os 4 últimos são: {times[-3:]}')
+print(f'Times em ordem alfabética: {sorted(times)}')
+print(f'O time do Nitro está na posição: {times.index("Nitro")+1}''º')
+print('Fim')
